@@ -32,6 +32,7 @@ function useHover() {
     return [ref, value];
 }
 
+export default useHover
 
 // Usage demo
 function App() {

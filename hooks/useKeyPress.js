@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import useInterval from "./useInterval";
 
 /*
  * you can copy this code in your project
@@ -36,6 +37,8 @@ function useKeyPress(targetKey) {
 
     return keyPressed;
 }
+
+export default useKeyPress
 
 // Usage demo
 function App() {
