@@ -25,13 +25,13 @@ function useInterval(callback, delay) {
 export default useInterval
 
 // usage demo
-// function Counter() {
-//     let [count, setCount] = useState(0);
-//
-//     useInterval(() => {
-//         // 定时器回调
-//         setCount(count + 1);
-//     }, 1000);
-//
-//     return (<h1>{count}</h1>);
-// }
+function Counter() {
+    let [count, setCount] = useState(0);
+
+    useInterval(() => {
+        // 定时器回调
+        setCount(count + 1);
+    }, 1000);
+
+    return (<h1>{count}</h1>);
+}
